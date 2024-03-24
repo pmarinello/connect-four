@@ -8,6 +8,9 @@
 body{
    font-family: 'nohemi';
    font-weight: 300;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 .gameboard {
@@ -16,7 +19,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    width: auto;
 }
 
 
@@ -123,6 +126,7 @@ h1{
     justify-content: space-between;
     align-content: center;
     margin: 2em 2em;
+    width: 80em ;
 }
 
 .menu {
